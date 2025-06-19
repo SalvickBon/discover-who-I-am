@@ -1,0 +1,7 @@
+Copyright © 2025 Nicolas Castaño. All rights reserved.
+
+This code is part of a personal portfolio and is intended for educational or demonstrative purposes only.
+
+You are not allowed to copy, reproduce, modify, publish, distribute, or use any part of this code for commercial or non-commercial purposes without explicit written permission from the author.
+
+For inquiries, please contact: nicolascastano627@gmail.com
