@@ -3,7 +3,7 @@
   --card: #0f0f0f;
   --text: #ffffff;
   --accent: #ff7521;
-  --shadow: rgba(255 255 255 / 50%);
+  --shadow: rgb(255 255 255 / 50%);
 }
 
 * {
@@ -12,7 +12,29 @@
   box-sizing: border-box;
 }
 
+.navbar{
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 45px;
+  background-color: #1d1d1d;
+}
+
+.contacto{
+  text-decoration: none;
+  margin-right: 15px;
+  margin-left: 15px;
+  padding: 6px;
+  border-radius: 6px;
+  background-color: #373737;
+}
+
 body {
+  overflow-x: hidden;
+  width: 100%;
   background-color: var(--bg);
   color: var(--text);
   font-family: 'Montserrat', sans-serif;
@@ -44,15 +66,15 @@ a:hover {
 }
 
 h1 {
-  font-size: 2.2rem;
+  margin: 15px;
+  font-size: 1.2rem;
   color: var(--accent);
-  margin-bottom: 0.5rem;
 }
 
 h2 {
-  font-weight: 400;
+  font-size: 1rem;
+  font-weight: 600;
   color: #ccc;
-  margin-bottom: 1rem;
 }
 
 .contacto p {
@@ -120,7 +142,7 @@ h2 {
 }
 
 .card a:hover {
-  background-color: #0095b6;
+  background-color: #e44900;
 }
 
 .certificados {
@@ -150,7 +172,7 @@ h2 {
   box-shadow: 0 0 10px rgba(0,0,0,0.4);
   transition: transform 0.3s;
   display: block;
-  margin: auto;
+  
 }
 
 .galeria a:hover img {
@@ -164,10 +186,21 @@ h2 {
 }
 
 .cursor {
+  margin: 0;
+  padding: 0;
+  text-align: center;
   display: inline-block;
   width: 8px;
   background-color: var(--accent);
   animation: blink 0.7s steps(1) infinite;
+}
+
+.cursos {
+  margin-bottom: 30px;
+  font-size: 2rem;
+  color: var(--accent);
+  display: inline-block;
+  /* width: 8px; */
 }
 
 @keyframes blink {
@@ -189,4 +222,3 @@ footer {
   h2 { font-size: 1.1rem; }
   .card img { height: 140px; }
 }
-
