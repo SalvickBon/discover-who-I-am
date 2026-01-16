@@ -23,10 +23,21 @@
   background-color: #1d1d1d;
 }
 
+h1 {
+  margin-left: 15px;
+  font-size: 1.2rem;
+  color: var(--accent);
+}
+
+.tecnico{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 .contacto{
   text-decoration: none;
   margin-right: 15px;
-  margin-left: 15px;
   padding: 6px;
   border-radius: 6px;
   background-color: #373737;
@@ -63,12 +74,6 @@ a:hover {
   border: 2px solid var(--accent);
   box-shadow: 0 0 15px var(--shadow);
   margin-bottom: 1rem;
-}
-
-h1 {
-  margin: 15px;
-  font-size: 1.2rem;
-  color: var(--accent);
 }
 
 h2 {
@@ -218,7 +223,13 @@ footer {
 }
 
 @media (max-width: 600px) {
-  h1 { font-size: 1.8rem; }
+  h1 { font-size: 1.3rem; }
   h2 { font-size: 1.1rem; }
   .card img { height: 140px; }
+}
+
+@media (max-width: 700px) {
+  .tecnico{
+    display: none;
+  }
 }
